@@ -17,7 +17,7 @@
 		97886DB21DB8E0AF00A0B326 /* TXScrollLabelViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 97886DB11DB8E0AF00A0B326 /* TXScrollLabelViewDemoTests.m */; };
 		97886DBD1DB8E0AF00A0B326 /* TXScrollLabelViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 97886DBC1DB8E0AF00A0B326 /* TXScrollLabelViewDemoUITests.m */; };
 		AF1B25351DF5803200AB8923 /* NSString+AttributedString.m in Sources */ = {isa = PBXBuildFile; fileRef = AF1B25341DF5803200AB8923 /* NSString+AttributedString.m */; };
-		C6A94DFF2159C9CF00D25F4B /* TXScrollLabelView.m in Sources */ = {isa = PBXBuildFile; fileRef = C6A94DFE2159C9CF00D25F4B /* TXScrollLabelView.m */; };
+		C6A94E022159CD9E00D25F4B /* TXScrollLabelView.m in Sources */ = {isa = PBXBuildFile; fileRef = C6A94E002159CD9E00D25F4B /* TXScrollLabelView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,8 +58,8 @@
 		97886DBE1DB8E0AF00A0B326 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AF1B25331DF5803200AB8923 /* NSString+AttributedString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+AttributedString.h"; sourceTree = "<group>"; };
 		AF1B25341DF5803200AB8923 /* NSString+AttributedString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+AttributedString.m"; sourceTree = "<group>"; };
-		C6A94DFD2159C9CF00D25F4B /* TXScrollLabelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TXScrollLabelView.h; path = "../../../公司/项目/宙斯/Pods/TXScrollLabelView/TXScrollLabelView/TXScrollLabelView.h"; sourceTree = "<group>"; };
-		C6A94DFE2159C9CF00D25F4B /* TXScrollLabelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TXScrollLabelView.m; path = "../../../公司/项目/宙斯/Pods/TXScrollLabelView/TXScrollLabelView/TXScrollLabelView.m"; sourceTree = "<group>"; };
+		C6A94E002159CD9E00D25F4B /* TXScrollLabelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXScrollLabelView.m; sourceTree = "<group>"; };
+		C6A94E012159CD9E00D25F4B /* TXScrollLabelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXScrollLabelView.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,8 +90,8 @@
 		972620C51DDE2F0600009F23 /* TXScrollLabelView */ = {
 			isa = PBXGroup;
 			children = (
-				C6A94DFD2159C9CF00D25F4B /* TXScrollLabelView.h */,
-				C6A94DFE2159C9CF00D25F4B /* TXScrollLabelView.m */,
+				C6A94E012159CD9E00D25F4B /* TXScrollLabelView.h */,
+				C6A94E002159CD9E00D25F4B /* TXScrollLabelView.m */,
 				972620C81DDE2F0600009F23 /* UIView+TXFrame.h */,
 				972620C91DDE2F0600009F23 /* UIView+TXFrame.m */,
 			);
@@ -305,7 +305,7 @@
 				97886D9C1DB8E0AF00A0B326 /* AppDelegate.m in Sources */,
 				AF1B25351DF5803200AB8923 /* NSString+AttributedString.m in Sources */,
 				97886D991DB8E0AF00A0B326 /* main.m in Sources */,
-				C6A94DFF2159C9CF00D25F4B /* TXScrollLabelView.m in Sources */,
+				C6A94E022159CD9E00D25F4B /* TXScrollLabelView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
